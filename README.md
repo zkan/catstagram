@@ -1,2 +1,1 @@
-# catstagram
-Catstagram in different programming languages 🐈
+# Catstagram in Different Web Frameworks 🐈
