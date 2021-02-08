@@ -150,5 +150,8 @@ dmypy.json
 # profiling data
 .prof
 
+# Vim
+*.swp
+
 # End of https://www.toptal.com/developers/gitignore/api/django
 
