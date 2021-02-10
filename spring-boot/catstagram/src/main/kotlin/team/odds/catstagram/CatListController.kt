@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.RestController
 class CatListController {
 
     @GetMapping("/cats")
-    fun getCat(): String {
-        return "Salee"
+    fun getCat(): Array<String> {
+        val cats: Array<String> = arrayOf<String>("Salee", "Marble")
+        return cats
     }
 
 }

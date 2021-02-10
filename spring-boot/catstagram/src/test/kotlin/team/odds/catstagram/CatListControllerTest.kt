@@ -16,6 +16,7 @@ class CatListControllerTest(@Autowired val restTemplate: TestRestTemplate) {
         val entity = restTemplate.getForEntity<String>("/cats")
         assertThat(entity.statusCode).isEqualTo(HttpStatus.OK)
         assertThat(entity.body).contains("Salee")
+        assertThat(entity.body).contains("Marble")
     }
 
 }
